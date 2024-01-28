@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-function HelloWorld(){
+export default function HelloWorld(){
   return<h1 className="greeting"> "Hello World!"</h1>;
 }
 
@@ -13,6 +13,7 @@ root.render(
     <HelloWorld />
   </React.StrictMode>
 );
+
 
 
 // If you want to start measuring performance in your app, pass a function
